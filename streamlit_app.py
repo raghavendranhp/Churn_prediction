@@ -98,7 +98,7 @@ df['Risk_Category'] = df['Churn_Probability'].apply(risk_label)
 # ---------------------------------------------------
 # SIDEBAR FILTERS
 # ---------------------------------------------------
-st.sidebar.title("🔍 Filters")
+st.sidebar.title(" Filters")
 
 city_filter = st.sidebar.multiselect(
     "City",
@@ -127,13 +127,13 @@ df_filt = df[
 # ---------------------------------------------------
 # TITLE
 # ---------------------------------------------------
-st.title("📊 ML-Powered Customer Churn Dashboard")
+st.title(" ML-Powered Customer Churn Dashboard")
 st.markdown("### Real-time churn prediction using Machine Learning")
 
 # ---------------------------------------------------
 # KPI SECTION
 # ---------------------------------------------------
-st.markdown("## 🔑 Key Business KPIs")
+st.markdown("##  Key Business KPIs")
 
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 
@@ -154,7 +154,7 @@ col6.metric(
 # CHURN DISTRIBUTION
 # ---------------------------------------------------
 st.markdown("---")
-st.markdown("## 📉 Churn Distribution")
+st.markdown("##  Churn Distribution")
 
 fig = px.pie(
     df_filt,
@@ -168,7 +168,7 @@ st.plotly_chart(fig, use_container_width=True)
 # CHURN DRIVERS
 # ---------------------------------------------------
 st.markdown("---")
-st.markdown("## 🧠 Churn Drivers")
+st.markdown("##  Churn Drivers")
 
 c1, c2, c3 = st.columns(3)
 
@@ -194,7 +194,7 @@ c3.plotly_chart(
 # HIGH RISK CUSTOMERS
 # ---------------------------------------------------
 st.markdown("---")
-st.markdown("## 🚨 High-Risk Customers (ML Identified)")
+st.markdown("##  High-Risk Customers (ML Identified)")
 
 st.dataframe(
     df_filt[df_filt['Risk_Category']=="High"][
@@ -209,7 +209,7 @@ st.dataframe(
 # BUSINESS INSIGHTS
 # ---------------------------------------------------
 st.markdown("---")
-st.markdown("## 📌 Key Business Insights")
+st.markdown("##  Key Business Insights")
 
 st.markdown("""
 - ML model identifies **inactivity, low engagement, and high support tickets** as top churn drivers  
@@ -222,4 +222,5 @@ st.markdown("""
 # FOOTER
 # ---------------------------------------------------
 st.markdown("---")
-st.markdown("✅ ML-powered churn prediction dashboard – ready for business decision-making")
+st.markdown(" ML-powered churn prediction dashboard – ready for business decision-making")
+
