@@ -37,7 +37,7 @@ def load_data():
 df = load_data()
 
 # ---------------------------------------------------
-# FEATURE ENGINEERING (SAME AS TRAINING)
+# FEATURE ENGINEERING 
 # ---------------------------------------------------
 reference_date = pd.to_datetime(df['Last_Login_Date']).max()
 df['Recency_Days'] = (
@@ -223,4 +223,5 @@ st.markdown("""
 # ---------------------------------------------------
 st.markdown("---")
 st.markdown(" ML-powered churn prediction dashboard – ready for business decision-making")
+
 
