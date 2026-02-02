@@ -1,8 +1,8 @@
 ---
 
-# 📊 Customer Churn Intelligence – Streamlit App
+# Customer Churn Intelligence – Streamlit App
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on analyzing customer churn and predicting the likelihood of customers leaving the service using machine learning.
 It combines **data analysis, churn prediction, and business insights** into an interactive **Streamlit application**.
@@ -11,7 +11,7 @@ Due to system constraints with Power BI, the dashboard and model insights are im
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Understand customer behavior and churn patterns
 * Identify key factors contributing to churn
@@ -20,15 +20,17 @@ Due to system constraints with Power BI, the dashboard and model insights are im
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 Churn_prediction/
 │
-├── app.py
+├── streamlit_app.py
+├── customer_churn_cleaned.csv
+├── report
 sources/
 │
-├── customer_churn_cleaned.csv
+├── customer_churn.xlsx
 model/
 │
 ├── churn_model_rf.pkl
@@ -45,7 +47,7 @@ model/
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Python
 * Pandas, NumPy
@@ -56,7 +58,7 @@ model/
 
 ---
 
-## 🚀 How to Run the Application
+## How to Run the Application
 
 ### 1️⃣ Install Dependencies
 
@@ -95,7 +97,7 @@ streamlit run app.py
 
 ---
 
-## 🤖 Machine Learning Model
+## Machine Learning Model
 
 * Model: Random Forest Classifier
 * Features include customer usage, tenure, support interactions, and subscription details
@@ -103,7 +105,7 @@ streamlit run app.py
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 * Low usage frequency and high support tickets strongly contribute to churn
 * Basic subscription users show higher churn risk
@@ -111,7 +113,7 @@ streamlit run app.py
 
 ---
 
-## 📝 Notes
+## Notes
 
 * Streamlit is used as a lightweight alternative to Power BI for dashboarding
 * The solution is modular, scalable, and can be migrated to Power BI or Tableau later
