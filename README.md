@@ -7,7 +7,7 @@
 This project focuses on analyzing customer churn and predicting the likelihood of customers leaving the service using machine learning.
 It combines **data analysis, churn prediction, and business insights** into an interactive **Streamlit application**.
 
-Due to system constraints with Power BI, the dashboard and model insights are implemented using **Streamlit**, while maintaining the same business logic and KPIs.
+The dashboard and model insights are implemented using **Streamlit**, while maintaining the same business logic and KPIs.
 
 ---
 
