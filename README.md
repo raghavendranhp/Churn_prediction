@@ -28,7 +28,7 @@ Churn_prediction/
 ├── streamlit_app.py
 ├── customer_churn_cleaned.csv
 ├── report
-├──churn_prediction.ipynb
+├── churn_prediction.ipynb
 sources/
 │
 ├── customer_churn.xlsx
@@ -75,7 +75,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Application Pages
+## Application Pages
 
 ### 🔹 Business Overview
 
