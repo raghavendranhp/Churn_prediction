@@ -125,4 +125,3 @@ streamlit run app.py
 
 ---
 
-Just tell me 👍
