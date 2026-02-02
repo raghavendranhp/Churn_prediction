@@ -28,6 +28,7 @@ Churn_prediction/
 ├── streamlit_app.py
 ├── customer_churn_cleaned.csv
 ├── report
+├──churn_prediction.ipynb
 sources/
 │
 ├── customer_churn.xlsx
