@@ -1,0 +1,16 @@
+Customer_ID,Age,Gender,City,Signup_Date,Last_Login_Date,Subscription_Type,Monthly_Charges,Tenure_Months,Total_Revenue,Usage_Frequency,Support_Tickets,Churn_Flag,Recency_Days,Avg_Monthly_Spend,Engagement_Score,Customer_Value
+C001,28,Male,Bangalore,2022-01-15,2024-12-20,Premium,999,24,23976,18,1,0,10,999.0,17,Medium
+C002,35,Female,Hyderabad,2021-08-10,2024-09-12,Basic,499,36,17964,5,6,1,109,499.0,-1,Medium
+C003,42,Male,Delhi,2020-05-20,2024-12-28,Standard,699,48,33552,14,2,0,2,699.0,12,High
+C004,26,Female,Chennai,2023-03-01,2024-06-15,Basic,499,15,7485,4,5,1,198,499.0,-1,Low
+C005,31,Male,Pune,2022-11-18,2024-12-30,Premium,999,25,24975,20,0,0,0,999.0,20,Medium
+C006,45,Female,Mumbai,2019-09-10,2024-04-02,Standard,699,60,41940,6,8,1,272,699.0,-2,High
+C007,29,Male,Bangalore,2023-01-22,2024-12-29,Basic,499,23,11477,9,3,0,1,499.0,6,Medium
+C008,38,Female,Kolkata,2021-02-14,2024-03-18,Standard,699,46,32154,7,7,1,287,699.0,0,High
+C009,33,Male,Delhi,2022-07-07,2024-12-10,Premium,999,30,29970,16,1,0,20,999.0,15,Medium
+C010,27,Female,Hyderabad,2023-06-12,2024-05-20,Basic,499,12,5988,3,4,1,224,499.0,-1,Low
+C011,41,Male,Mumbai,2020-01-05,2024-12-25,Premium,999,60,59940,19,0,0,5,999.0,19,High
+C012,36,Female,Pune,2021-10-09,2024-08-01,Standard,699,38,26562,8,5,1,151,699.0,3,Medium
+C013,24,Male,Chennai,2023-08-15,2024-12-22,Basic,499,10,4990,11,1,0,8,499.0,10,Low
+C014,39,Female,Bangalore,2020-11-11,2024-02-19,Standard,699,50,34950,6,6,1,315,699.0,0,High
+C015,34,Male,Delhi,2022-04-03,2024-12-27,Premium,999,32,31968,17,2,0,3,999.0,15,High
